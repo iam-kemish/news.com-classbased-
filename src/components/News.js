@@ -105,7 +105,9 @@ export class News extends Component {
     return (
       <div className="container my-3">
         <strong>
-          <h1 className="text-center" style={{color: "#00ff0a"}}>Top News headlines</h1>
+          <h2 className="text-center" style={{color: "#00ff0a"}}>Welcome to <strong>Kemish bajgai's</strong> news portal.</h2>
+          <span style={{marginLeft: "230px", color: "brown"}}>Plase select any particular news category you want to know about above in the News reference above. Choose science if you want to get info. related to science. Likewise choose entertainment for news related to movies, glamour, music and so on.We will be updating latest informations about the particular catergory you click.</span>
+          
         </strong>
         <div className="row my-5">
           {this.state.articles.map((element) => {
